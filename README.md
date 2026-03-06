@@ -23,36 +23,46 @@ Aqui você encontrará instruções para configurar, rodar e entender a estrutur
 
 ### Criando o projeto
 
-composer create-project laravel/laravel nome-do-projeto
-cd nome-do-projeto
-php artisan serve
+- composer create-project laravel/laravel nome-do-projeto
+- cd nome-do-projeto
+- php artisan serve
 
-APP_NAME="MeuProjeto"
-APP_ENV=local
-APP_KEY=base64:...
-APP_DEBUG=true
-APP_URL=http://localhost
+- APP_NAME="MeuProjeto"
+- APP_ENV=local
+- APP_KEY=base64:...
+- APP_DEBUG=true
+- APP_URL=http://localhost
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=meu_banco
-DB_USERNAME=root
-DB_PASSWORD=senha
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=meu_banco
+- DB_USERNAME=root
+- DB_PASSWORD=senha
 
-php artisan key:generate
+- php artisan key:generate
 
 ## Configuração
  - APP_NAME="MeuProjeto"
+ 
  - APP_ENV=local
+ 
  - APP_KEY=base64:...
+ 
  - APP_DEBUG=true
+ 
  - APP_URL=http://localhost
+ 
  - DB_CONNECTION=mysql
+ 
  - DB_HOST=127.0.0.1
+ 
  - DB_PORT=3306
+ 
  - DB_DATABASE=meu_banco
+ 
  - DB_USERNAME=root
+ 
  - DB_PASSWORD=senha
 
 ## Estrutura do Projeto
