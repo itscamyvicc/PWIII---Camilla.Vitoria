@@ -22,7 +22,7 @@ Aqui você encontrará instruções para configurar, rodar e entender a estrutur
 - Node.js e NPM  
 
 ### Criando o projeto
-```bash
+
 composer create-project laravel/laravel nome-do-projeto
 cd nome-do-projeto
 php artisan serve
